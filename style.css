@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Azeret Mono", monospace; */
+*{
+    margin: 0;
+    padding: 0;
+}
+.hdr-container{
+    margin-top: 131px;
+    width:1440;
+    height: 800px;
+    display: flex;
+    /* border: 2px solid blue; */
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("./assets/Hero-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    gap:20px;
+}
+
+.hdr-img-container{
+    /* border: 2px solid green; */
+    height: 250.2px;
+    width:250px;
+    /* margin-bottom: 350px; */
+    /* margin-left: 800px; */
+    /* margin-right: 634px; */
+    /* margin-top: 131px; */
+}
+
+.hdr-img-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.hdr-title-container{
+    display: flex;
+    /* border: 2px solid rgb(0, 0, 246); */
+    width:1000px;
+    height: 150px;
+    
+}
+
+.hdr-title-container p{
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono", monospace;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.hdr-desc-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid rgb(0, 0, 246); */
+    width:50%;
+    height: 60px;
+    /* margin-bottom: 90px; */
+}
+
+.hdr-desc-container p{
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono", monospace; 
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.hdr-btn-container{
+    display: flex;
+    /* margin-top: 10px; */
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+.btn{
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    height:70px ;
+    width:250px ;
+    color: rgb(255, 255, 255);
+    font-family:  "Azeret Mono", monospace;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 21px;
+    margin-top: 40px;
+    
+}
